@@ -1,0 +1,5 @@
+Matt Klaasse
+
+1) Internationalization is the process of designing a program that can be easily localized. Localization is the process of actually adding the specific files to make the program accessable to a particular locale.
+
+2) i18n and l10n is important beause without taking it into consideration, software engineers severly restrict the market available to their software and may even make it completely inaccessable to some of the people that may need it. For example, if microsoft windows were only programmed with English speaking Americans in mind, it would be impossible for a large part of the world to have access to the operating system and they would be forced to find other OSs to suit their needs.

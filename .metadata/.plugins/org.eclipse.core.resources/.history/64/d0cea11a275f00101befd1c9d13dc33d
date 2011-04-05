@@ -1,0 +1,25 @@
+package pkg;
+
+import static org.junit.Assert.*;
+
+import java.util.Locale;
+import java.util.ResourceBundle;
+
+import org.junit.Test;
+
+
+public class TestMessagesBundle {
+	
+	@Test
+	public void testEnglish(){
+		ResourceBundle test;
+		test = ResourceBundle.getBundle("MessagesBundle", new Locale("en", "US"));
+		assertEquals(test.getString("Greeting"), "Hello World");
+		assertEquals(test.getString("GetName"), "Please enter your name");
+		assertEquals(test.getString("PleasedToMeet"), "I am pleased to meet you ");
+		assertEquals(test.getString("AsOf"), "As of : ");
+		assertEquals(test.getString("OweSchool"), "You owe the school ");
+		assertEquals(test.getString("Farewell"), "Good Bye");
+	}
+
+}
